@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+main {
+  display: flex;
+}
+
+section#content {
+  flex: 1;
+}
+
+aside {
+  margin-left: 2rem;
+  border-left: 1px solid #ddd;
+  padding-left: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
