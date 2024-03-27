@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <input placeholder="Hi" id="in-fi" type="text" />
+        <input placeholder="Answer" id="ans" type="text" disabled/>
+            
+        
+
+        <div class="btns">
+
+                <div class="grid">
+                    <div onclick="getEl(this)" class="key">7</div>
+                    <div onclick="getEl(this)" class="key">8</div>
+                    <div onclick="getEl(this)" class="key">9</div>
+                </div>
+               
+                              
+            
+            <div class="grid">
+
+                <div onclick="getEl(this)" class="key">4</div>
+                <div onclick="getEl(this)" class="key">5</div>
+                <div onclick="getEl(this)" class="key">6</div>
+            </div>
+           
+            <div class="grid">
+                <div onclick="getEl(this)" class="key">1</div>
+                <div onclick="getEl(this)" class="key">2</div>
+                <div onclick="getEl(this)" class="key">3</div>
+
+            </div>
+
+            <div class="grid">
+                <div onclick="getEl(this)" class="key">0</div>
+                <div onclick="reset()" class="key">Cls</div>
+                <div onclick="result()" class="key">=</div>
+            </div>
+            <div class="grid">
+    
+                <div onclick="getEl(this)" class="key">-</div>
+                <div onclick="getEl(this)" class="key">+</div>
+                <div onclick="getEl(this)" class="key">*</div>
+                <div onclick="getEl(this)" class="key">/</div>
+            </div>
+                
+        </div>
+                
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

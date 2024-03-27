@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+}
+
+#container {
+    border: 2px solid #333;
+    height: 500px;
+    width: 300px;
+    background: linear-gradient(to bottom, #444, #000);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#in-fi {
+    height: 50px;
+    width: 98%;
+    background: #000;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#ans {
+    width: 98%;
+    height: 30px;
+    color: #ffcc00;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.grid {
+    width: calc(25% - 10px);
+    margin-bottom: 10px;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #333;
+    border: 2px solid #222;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    color: #ffcc00; /* Yellow text color */
+}
+
+.key:hover {
+    background-color: #444;
+}
+
+.operator {
+    background-color: #ffcc00; /* Yellow operator buttons */
+    color: #222; /* Dark text color */
+}
+
+.equal {
+    background-color: #ff6600; /* Orange equals button */
+    color: #fff;
+}
+
+.clear {
+    background-color: #ff3300; /* Red clear button */
+    color: #fff;
+}
